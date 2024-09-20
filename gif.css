@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+figure {
+
+                position: relative;
+                 animation-name: mario;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+                animation-timing-function:linear;
+                                                                                                  }
+             @keyframes mario {
+                    0%   { left:80px; top:0px;}
+                   20%  {left:280px; top:0px;}
+                     40%  {left:480px; top:0;}
+                      60%  {left:680px; top:0px;}
+                      80%  {left:880px; top:0px;}
+                    100% {left:1080px; top:0px;}
+                                           }
